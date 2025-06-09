@@ -1,0 +1,45 @@
+:root {
+  --themePurple: #600060;
+  --boxShadow: 0 0 10px 0 #e1e1e1;;
+
+  --navbarHeight: 55px;
+  --navbarFontSize: 1.05rem;
+  --navbarBackgroundColor: #f5f5f5;
+  --navbarBorderWidth: 2px;
+  --navbarServicesHeight: 370px;
+
+  --footerBorderWidth: 2px;
+  --footerMinHeight: 360px;
+}
+
+::selection {
+  background-color: var(--themePurple);
+  color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Nunito, sans-serif;
+  font-weight: 500;
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+.main {
+  min-height: 500px;
+}

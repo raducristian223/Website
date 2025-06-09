@@ -1,0 +1,53 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem;
+}
+
+.service-container {
+  max-width: 800px;
+  padding: 1rem;
+  box-shadow: var(--boxShadow);
+  border-radius: 10px;
+}
+
+.service-title {
+  color: var(--themePurple);
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+.service-details {
+  line-height: 1.25;
+}
+
+.service-details p {
+  padding: .4rem 0;
+}
+
+.service-details i {
+  color: var(--themePurple);
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+}
+
+.service-details b {
+  text-wrap: nowrap;
+}
+
+.service-details ul {
+  list-style-type: disc;
+  padding-left: 1em;
+}
+
+.service-details li {
+  padding: .1em 0;
+}
+
+.service-details sub {
+  font-size: .6rem;
+}

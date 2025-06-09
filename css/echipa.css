@@ -1,0 +1,62 @@
+:root {
+  --memberBoxWidth: 325px;
+}
+
+.team-members-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(var(--memberBoxWidth), 1fr));
+  grid-template-rows: auto;
+  gap: 3.2rem 1.5rem;
+  padding: 3.5rem 1.5rem;
+  justify-items: center;
+}
+
+.team-member-box {
+  padding: .7rem;
+  font-size: .95rem;
+  box-shadow: var(--boxShadow);
+  border-radius: 10px;
+  width: var(--memberBoxWidth);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 90vw;
+  height: 380px;
+}
+
+.team-member-box img {
+  width: 100px;
+  height: 100px;
+  margin-top: -50%;
+  object-fit: cover;
+  border: 2px solid var(--themePurple);
+  border-radius: 50%;
+  cursor: pointer;
+  object-position: top;
+}
+
+.team-member-name {
+  font-size: 1.5rem;
+  text-align: center;
+  color: var(--themePurple);
+}
+
+.team-member-details {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.team-member-details p {
+  padding: .25em 0;
+  text-align: center;
+}
+
+.team-member-details p:last-child {
+  margin-top: auto;
+}
+
+.team-member-details i {
+  color: var(--themePurple);
+  text-shadow: 1px 1px #cecece;
+}
